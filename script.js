@@ -128,14 +128,14 @@ function updateScore(){
 
 function openEndgameModel(){
     if(playerScore>=5){
-        modelImage.src = "../media/overlay-win.gif"
+        modelImage.src = "./overlay-win.gif"
         endgameModel.append(modelImage)
         endgameModel.append(restartBtn)
         endgameModel.classList.add("active")
         overlay.classList.add("active")
     }
     else if(computerScore>=5){
-        modelImage.src = "../media/overlay-lose.gif"
+        modelImage.src = "./overlay-lose.gif"
         endgameModel.append(modelImage)
         endgameModel.append(restartBtn)
         endgameModel.classList.add("active")
